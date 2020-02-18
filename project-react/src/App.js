@@ -1,10 +1,15 @@
 import React from "react";
-import Hello from "./sayHello"
+import Tweet from "./Tweet"
+
+
+
+
 function App(){
 return (
-<div>
- <h1>this is App component</h1>
-<Hello />
+<div className="app">
+<Tweet name="Oleg Kuts" message="Im am tired"/>
+<Tweet name="Alex Costa" message="Try my new hair styler"/>
+<Tweet name="Bill Gates" message="New toilets will be deployed next month"/>
 </div>
 )
 }
